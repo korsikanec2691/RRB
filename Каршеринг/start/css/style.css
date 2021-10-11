@@ -22,11 +22,79 @@ a {
 body {
     font-family: "Roboto Condensed";
     font-style: normal;
-    font-weight: normal;
+    font-weight: 400;
     font-size: 16px;
     line-height: 19px;
     color: #181818;
 }
+
+.header {
+    background: #332208
+}
+
+.header__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+}
+
+.menu__list {
+    display: flex;
+}
+
+.menu__item {
+    margin: 0 15px;
+}
+
+.menu__list-link {
+    text-transform: uppercase;
+    color: #fefefe;
+    font-size: 18px;
+    line-height: 21px;
+    padding-bottom: 5px;
+    transition: all .7s;
+    border-bottom: 1px solid transparent;
+}
+
+.menu__list-link:hover {
+    border-bottom: 1px solid #fefefe;
+}
+
+.phone {
+    font-size: 18px;
+    line-height: 21px;
+    color: #FEFEFE;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
