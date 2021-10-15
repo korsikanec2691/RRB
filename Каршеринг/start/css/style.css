@@ -65,37 +65,97 @@ body {
     font-size: 18px;
     line-height: 21px;
     color: #FEFEFE;
+}
 
+.top__heading {
+    display: flex;
+    padding: 50px 0 50px;    
+}
 
-}jjjjjj
+.top__content {
+    text-align: center;
+    padding-top: 90px;
+    width: 50%;
+    
+}
 
+.top__title {
+    font-family: "Fira Sans";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 58px;
+    max-width: 455px;
+    color: #1B1818;
+    margin: 0 auto 20px;
+}
 
+.top__text {
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    max-width: 470px;
+    margin: 0 auto 60px;
+}
 
+.application__btn {
+    text-transform: uppercase;
+    color: #FEFEFE;
+    background-color: #C5AC2D;
+    padding: 16px 19px 16px 15px;
+    transition: all .5s;
+    border: 1px solid trsnsporent;
+}
 
+.application__btn:hover {
+    color: #C5AC2D;
+    background-color: #fefefe;
+    border: 1px solid #C5AC2D;
+}
 
+.top__slaider {
+    
+}
 
+.top__slaider-item {
 
+}
 
+.top__slaider-img {
 
+}
 
+.top__slaider-text {
 
+}
 
+.top__bottom {
 
+}
 
+.top__items {
 
+}
 
+.top__item  {
 
+}
 
+.top_item-img {
 
+}
 
+.top__item-text {
 
+}
 
+.top__links {
 
+}
 
+.top_link {
 
-
-
-
+}
 
 
 
