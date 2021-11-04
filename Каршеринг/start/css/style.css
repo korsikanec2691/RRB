@@ -276,18 +276,83 @@ body {
 .rent__item-text {
    
 }
-50.00
 
+.benefits {
+    padding: 100px 0;
+}
 
+.benefits__title {
+    font-family: 'Fira Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;  
+    margin-bottom: 45px;
 
+}
 
+.benefits__items {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
+.benefits__list {
+    width: 300px;
+    list-style: none;
+}
 
+.benefits__list-item {
+    margin-bottom: 27px;
+    padding-right: 26px;
+    position: relative;
+    text-align: right;
+}
 
+.benefits__list-item::after {
+    content: '';
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background: #332208;
+    right: 0;
+}
 
+.benefits__list-item:nth-child(1),
+.benefits__list-item:nth-child(7) {
+    margin-right: 10px;
+}
 
+.benefits__list-item:nth-child(2),
+.benefits__list-item:nth-child(6) {
+    margin-right: 64px;
+}
 
+.benefits__list-item:nth-child(3),
+.benefits__list-item:nth-child(5) {
+    margin-right: 110px;
+}
 
+.benefits__list-item:nth-child(4) {
+    margin-right: 150px;
+}
+
+.benefits__content {
+    width: 300px;
+}
+
+.benefits__text {
+    margin-bottom: 30px;
+    text-align: right;
+}
+
+.benefits__text + .benefits__text {
+    width: 267px;
+    margin-left: auto;
+}
+
+1/20
 
 
 
