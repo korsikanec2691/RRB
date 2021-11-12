@@ -434,19 +434,69 @@ body {
 .reviews__slaider button {
     margin: 0 5px;
     line-height: 12px;
+}
+
+.feedback {
+     padding: 100px 0;
+}
+
+.feedback__inner {
+    display: flex;
+    align-items: center;
+}
+
+.feedback__images {
+    width: 50%;
+}
+
+.feedback__form {
+    width: 415px;
+    margin: 0 auto;
+}
+
+.feedback__title {
+    font-family: Fira Sans;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: #1B1818;
+    margin-bottom: 5px;
+}
+
+.feedback__text {
+    margin-bottom: 30px;
 
 }
 
+.feedback__input {
+    font-family: "Roboto Condensed";
+    display: block;
+    padding: 20px 0;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid rgba(0, 0, 0, .1);
+}
 
+.feedback__input::placeholder {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    /* text-align: center; */
+    color: #181818;
+}
 
+.feedback__btn {
+    font-family: "Roboto Condensed";
+    text-transform: uppercase;
+    color: #fefefe;
+    background-color: #C5AC2D;
+    border: none;
+    display: inline-block;
+    padding: 16px 26px;
+    margin-top: 50px;
 
-
-
-
-
-
-
-
+}
 
 
 
