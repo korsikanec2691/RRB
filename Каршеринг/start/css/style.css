@@ -108,7 +108,7 @@ body {
     background-color: #C5AC2D;
     padding: 16px 19px 16px 15px;
     transition: all .5s;
-    border: 1px solid trsnsporent;
+    border: 1px solid transparent;
     display: inline-block;
 }
 
@@ -489,27 +489,49 @@ body {
     line-height: 19px;
     color: #fefefe;
     background-color: #C5AC2D;
-    border: none;
+    border: 1px solid transparent;
+
     display: inline-block;
     padding: 16px 26px;
     margin-top: 50px;
+}
+
+.feedback__btn:hover {
+    background-color: #fefefe;
+    color: #C5AC2D;
+    border: 1px solid #C5AC2D;
 
 }
 
 .footer {
     padding: 100px 0 24px;
+    background-color: #332208;
+}
+
+.footer__top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 21px;
 }
 
 .footer__social {
+    list-style: none;
     display: flex;
     justify-content: center;
+    align-items: center;
+    
+}
+
+.footer__social-item {
+    margin: 0 15px;
 }
 
 
 
-
-
-
+@media (max-width:1000px) {
+    
+}
 
 
 
