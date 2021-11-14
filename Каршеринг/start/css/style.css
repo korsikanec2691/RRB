@@ -20,7 +20,7 @@ a {
 }
 
 body {
-    font-family: "Roboto Condensed";
+    font-family: "Roboto Condensed",sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -84,7 +84,7 @@ body {
 }
 
 .top__title {
-    font-family: "Fira Sans";
+    font-family: "Fira Sans",sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 48px;
@@ -109,6 +109,7 @@ body {
     padding: 16px 19px 16px 15px;
     transition: all .5s;
     border: 1px solid trsnsporent;
+    display: inline-block;
 }
 
 .application__btn:hover {
@@ -154,7 +155,7 @@ body {
 }
 
 .top__slaider-text {
-    font-family: "Fira Sans";
+    font-family: "Fira Sans",sans-serif;
     font-weight: 500;
     padding-right: 100px;
     text-align: right;
@@ -225,7 +226,7 @@ body {
 }
 
 .rent__title {
-    font-family: "Fira Sans";
+    font-family: "Fira Sans",sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 24px;
@@ -253,7 +254,7 @@ body {
 }
 
 .ren__item-num {
-    font-family: "Fira Sans";
+    font-family: "Fira Sans",sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 96px;
@@ -378,17 +379,11 @@ body {
     padding: 100px 0;
     background-color: #332208;
     color: #FEFEFE;
-
-    /* font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 19px;
-    text-align: center; */
 }
 
 
 .reviews__title {
-    font-family: 'Fira Sans';
+    font-family: 'Fira Sans',sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 24px;
@@ -413,7 +408,7 @@ body {
 }
 
 .reviews__item-name  {
-    font-family: 'Fira Sans';
+    font-family: 'Fira Sans',sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 24px;
@@ -455,7 +450,7 @@ body {
 }
 
 .feedback__title {
-    font-family: Fira Sans;
+    font-family: 'Fira Sans',sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 24px;
@@ -470,7 +465,7 @@ body {
 }
 
 .feedback__input {
-    font-family: "Roboto Condensed";
+    font-family: "Roboto Condensed",sans-serif;
     display: block;
     padding: 20px 0;
     width: 100%;
@@ -487,8 +482,11 @@ body {
 }
 
 .feedback__btn {
-    font-family: "Roboto Condensed";
+    font-family: "Roboto Condensed", sans-serif;
     text-transform: uppercase;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
     color: #fefefe;
     background-color: #C5AC2D;
     border: none;
@@ -498,9 +496,14 @@ body {
 
 }
 
+.footer {
+    padding: 100px 0 24px;
+}
 
-
-
+.footer__social {
+    display: flex;
+    justify-content: center;
+}
 
 
 
