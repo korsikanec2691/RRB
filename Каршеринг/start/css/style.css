@@ -531,7 +531,29 @@ body {
     margin: 0 15px;
 }
 
-
+@media (max-width: 1000px) {
+    .top__heading {
+        display: block;
+    }
+    .top__content {
+        width: 100%;
+        padding: 20px;
+    }
+    .top__slaider {
+        width: 100%;
+    }
+    .top__bottom {
+        display: block;
+    }
+    .top__links {
+        padding-right: 0;
+        padding-top: 50px;
+        text-align: center;
+    }
+    .top__items {
+        width: 100%;
+    }
+}
 
 @media (max-width: 860px) {
     .menu {
@@ -577,7 +599,6 @@ body {
        height: 2px;
        left: 0;
        top: 9px;
-
    }
   
 }

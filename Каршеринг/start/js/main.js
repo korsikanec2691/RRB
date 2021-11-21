@@ -4,6 +4,14 @@ $(function(){
         dots: true,
         autoplay: true,
         fade: true,
+        responsive: [
+            {
+                breakpoint: 1200,
+                settings: {
+                    dots: false
+                }
+            }
+        ]
     });
     $('.reviews__slaider').slick({
         arrows: false,
@@ -17,3 +25,5 @@ $('.menu__btn').on('click', function(){
 })
 
 });
+
+
