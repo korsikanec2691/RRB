@@ -1,0 +1,50 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.header {
+  background-image: url(../images/header__bg.jpg);
+  min-height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.container {
+  max-width: 1220px;
+  margin: 0 auto;
+  padding: 0 auto;
+}
+.header__inner {
+}
+.header__top {
+}
+.menu {
+}
+.menu__list {
+}
+.menu__item {
+}
+.menu__link {
+}
+.phone {
+}
+.login {
+}
+.login__img {
+}
+.header__content {
+}
+.header__title {
+}
+.header__text {
+}
+.header__text-small {
+}
+.header__btn {
+}
+.header__description {
+}
+.header__description-text {
+}
