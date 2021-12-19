@@ -52,6 +52,14 @@ body {
   color: #fff;
 }
 
+.title {
+  font-family: 'spaceagecyrillic';
+  font-size: 48px;
+  line-height: 48px;
+  padding: 100px 0;
+  /* margin: 100px 0; */
+}
+
 .header {
   background-image: url(../images/header__bg.jpg);
   background-position: center;
@@ -166,6 +174,69 @@ body {
 
 }
 
-.header__description-text + .header__description-text {
+.header__description-text+.header__description-text {
   margin-left: 50px;
 }
+
+.main {}
+
+.about {
+  background-image: url(../images/about-bg.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.about__item {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding-bottom: 150px;
+}
+
+.about__img {
+  max-width: 100%;
+}
+
+.about__content {
+  width: 600px;
+}
+
+.about__content-title {
+  font-family: 'SF Pro Display';
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 36px;
+  margin-bottom: 5px;
+}
+
+.about__content-subtitle {
+  font-family: 'SF Pro Display';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px;
+  color: #036CCA;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+}
+
+.about__content-text {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+.about__content-text p {
+  width: 165px;
+}
+
+.about__table {}
+
+.about__table-tr {}
+
+.about__table-td {}
+
+.table__caption {}
+
+.btn {}
