@@ -38,6 +38,7 @@ a {
 }
 
 button {
+  color: inherit;
   border: none;
   background-color: transparent;
   cursor: pointer;
@@ -114,25 +115,57 @@ body {
 
 .login__img {}
 
-.header__content {}
+.header__content {
+  max-width: 600px;
+}
 
 .header__title {
   font-family: 'spaceagecyrillic';
+  font-weight: 400;
   font-size: 60px;
   line-height: 60px;
+  margin-bottom: 20px;
 }
 
 .header__title span {
   font-size: 110px;
-  line-height: 110px;
 }
 
-.header__text {}
+.header__text {
+  font-size: 24px;
+  line-height: 29px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 50px;
+}
 
 .header__text-small {}
 
-.header__btn {}
+.header__btn {
+  font-size: 24px;
+  line-height: 29px;
+  text-transform: uppercase;
+  text-align: center;
+  width: 100%;
+  border: 1px solid #fff;
+  padding: 15px 10px 16px;
+}
 
-.header__description {}
+.header__description {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 35px;
+  margin-bottom: 5%;
+}
 
-.header__description-text {}
+.header__description-text {
+  width: 165px;
+  font-size: 14px;
+  line-height: 17px;
+
+}
+
+.header__description-text + .header__description-text {
+  margin-left: 50px;
+}
