@@ -52,6 +52,15 @@ body {
   color: #fff;
 }
 
+.btn {
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  text-transform: uppercase;
+  border: 1px solid #fff;
+  padding: 20px 45px;
+}
+
 .title {
   font-family: 'spaceagecyrillic';
   font-size: 48px;
@@ -194,6 +203,10 @@ body {
   padding-bottom: 150px;
 }
 
+.about__item:nth-child(odd) {
+  flex-direction: row-reverse;
+}
+
 .about__img {
   max-width: 100%;
 }
@@ -231,12 +244,53 @@ body {
   width: 165px;
 }
 
-.about__table {}
+.about__table {
+  margin-bottom: 50px;
+}
 
-.about__table-tr {}
+.about__table-tr {
+  border: 1px solid #fff;
+  border-left: none;
+  border-right: none;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+}
 
-.about__table-td {}
+.about__table-tr+.about__table-tr {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 43px;
+  text-align: center;
 
-.table__caption {}
+}
 
-.btn {}
+.about__table-td {
+  padding: 10px 30px 10px 0;
+}
+
+.about__table-td span {
+  font-size: 14px;
+  line-height: 17px;
+  display: block;
+}
+
+.about__table-caption {
+  caption-side: bottom;
+  font-size: 12px;
+  line-height: 14px;
+  color: #E5E5E5;
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.hav-to {
+  background-image: url(../images/hav-to-bg.jpg);
+  background-size: cover;
+  background-position: top center;
+  background-repeat: no-repeat;
+  padding-bottom: 100px;
+}
+
+.hav-to__box {
+}
