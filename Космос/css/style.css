@@ -293,4 +293,43 @@ body {
 }
 
 .hav-to__box {
+  text-align: center;
 }
+
+.hav-to__box circle,
+.hav-to__box text,
+foreignObject{
+  font-size: 18px;
+  line-height: 21px;
+  transition: all .5s;
+  cursor: pointer;
+}
+
+.hav-to__box g:hover circle {
+  r: 20px;
+  fill: #036CCA;
+}
+
+.hav-to__box g:hover text {
+  font-size: 36px;
+  line-height: 43px;
+  fill: #036CCA;
+}
+
+foreignObject {
+  text-align: left;
+}
+
+.hav-to__box g:hover foreignObject {
+  font-size: 22px;
+  color: #036CCA;
+}
+
+
+
+
+
+
+
+
+
