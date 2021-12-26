@@ -298,7 +298,7 @@ body {
 
 .hav-to__box circle,
 .hav-to__box text,
-foreignObject{
+foreignObject {
   font-size: 18px;
   line-height: 21px;
   transition: all .5s;
@@ -325,11 +325,34 @@ foreignObject {
   color: #036CCA;
 }
 
+.to-book {
+  background-image: url(../images/to-book.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+  min-height: 100vh;
+}
+
+.to-book__inner {
+  display: flex;
+  justify-content: space-between;
 
 
+}
 
+.title {}
 
+.to-book__text {
+  font-family: 'SF Pro Display';
+  font-size: 14px;
+  line-height: 17px;
+  width: 165px;
+  margin-top: 100px;
+  margin-left: auto;
+  margin-right: 52px;
+}
 
-
-
-
+.to-book__text+.to-book {
+  margin-left: 0;
+  margin-right: 0;
+}
