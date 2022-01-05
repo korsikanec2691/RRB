@@ -432,3 +432,77 @@ foreignObject {
 .special-offer__btn {
   width: 100%;
 }
+
+.servises {
+  padding-bottom: 200px;
+}
+
+.servises__inner {
+  display: flex;
+  justify-content: space-between;
+}
+
+.servises__box-list {
+  width: 620px;
+  font-size: 24px;
+  line-height: 29px;
+  margin-right: 80px;
+}
+
+.servises__list-title {
+  margin-bottom: 25px;
+}
+
+.servises__list {
+  list-style: none;
+  margin-bottom: 25px;
+}
+
+.servises__list-item {
+  padding-left: 36px;
+  position: relative;
+}
+
+.servises__list-item::before {
+  content: '';
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background-color: #fff;
+  border-radius: 50%;
+  left: 0;
+  top: 5px;
+}
+
+.servises__description {
+  font-size: 12px;
+  line-height: 14px;
+  color: #E5E5E5;
+}
+
+.servises__button {
+  width: 500px;
+}
+
+.servises__btn {
+  width: 100%;
+}
+
+.servises__btn--first{
+  margin-bottom:  50px;
+  position: relative;
+}
+
+.servises__btn--first::before {
+  content: '';
+  position: absolute;
+  right: 0;
+  bottom: 43px;
+  background-image: url(../images/foto.png);
+  width: 192px;
+  height: 150px;
+}
+
+
+
+
