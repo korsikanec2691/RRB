@@ -488,8 +488,8 @@ foreignObject {
   width: 100%;
 }
 
-.servises__btn--first{
-  margin-bottom:  50px;
+.servises__btn--first {
+  margin-bottom: 50px;
   position: relative;
 }
 
@@ -503,6 +503,66 @@ foreignObject {
   height: 150px;
 }
 
+.slider {
+  text-align: center;
+}
 
+.slider__inner {}
 
+.slider__box{
+  margin-bottom: 50px;
+  border: 1px solid #fff;
+  padding: 100px 0;
+}
+
+.slider__box-item {}
+
+.slider__box-img {
+  margin: 0 auto;
+}
+
+.slider__description {
+  font-family: 'spaceagecyrillic';
+  font-size: 24px;
+  line-height: 30px
+}
+
+.slider__arrow {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  z-index: 5;
+}
+
+.slider__arrow-left {
+  left: 70px;
+}
+
+.slider__arrow-right {
+  right: 70px;
+}
+
+.contacts {
+}
+
+.contacts__inner {
+}
+.contacts__box {
+}
+.title {
+}
+.contacts__box-text {
+}
+.contacts__form {
+}
+.contacts__form-imput {
+}
+.btn {
+}
+.contacts__guarantees {
+}
+.contacts__guarantees-text {
+}
+.contacts__guarantees-img {
+}
 
