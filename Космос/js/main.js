@@ -3,4 +3,7 @@ $(function(){
         prevArrow: '<img src="images/Arrow-r.svg" alt="" class="slider__arrow slider__arrow-right">', 
         nextArrow: '<img src="images/Arrow-left.svg" alt="" class="slider__arrow slider__arrow-left">',
     });
+    $('.menu__btn').on('click', function(){
+        $('.menu__list').toggleClass('active')
+    });
 });
