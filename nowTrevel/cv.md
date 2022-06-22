@@ -11,7 +11,7 @@
 
 ----
 ##   __Briefly about me\.__<br>
-I am 50+ years old, I work as an operational engineer. I think that my real job will sooner or later lead me to stagnation. I really need classes in which I could develop during my life. My dream from a young age is to learn programming. That's why I'm here. My goal is to gain knowledge in the field of frontend development.
+I am 50+ years old, I work as an operational engineer. I think that my real job will sooner or later lead me to stagnation. I really need classes in which I could develop during my life. My dream from a young age is to learn programming. That's why I'm here. My goal is to gain knowledge in the field of frontend development...
 + My strengths:
   + communication skills;
   + life experience;
